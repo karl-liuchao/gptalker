@@ -4,7 +4,7 @@ import sys
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 from pyannote.audio import Pipeline
 
-hf_token = "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"
+hf_token = "example"
 
 # Step 1: 语音转文本
 audio_file = sys.argv[1]
